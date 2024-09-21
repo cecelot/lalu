@@ -1,0 +1,30 @@
+# R0: data memory address
+# R1: any
+# R2: curMax
+# R3: constant 1 / prev addr
+
+# Initialize
+			ldi 0,0
+			ld 0,0
+			ld 2,0
+
+# Compare numbers
+L0:			ldi 3,1
+			add 0,3
+			ld 1,0
+			sub 1,2 # cur - curMax
+			jmpn L1
+			ld 1,3 # loads 0xE into R1 (delay instr)
+			ld 2,0 # R0 = current address curMax = data[cur_address]
+
+L1:			mv 3,0 # R3 = cur_address
+			sub 0,1 # cur - 0xe cur_address = bad
+			jmpn L0
+			mv 0,3 # delay instr # back to good address
+
+# End
+	     	halt
+D:  		jmp  D
+    		nop # delay instr
+
+# replace if neg - pos; pos - pos and answer is negative, or neg - neg and answer is negative

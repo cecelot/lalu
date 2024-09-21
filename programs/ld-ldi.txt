@@ -1,0 +1,40 @@
+# counter in R0
+ldi 0,0
+ldi 1,1
+
+# load 1 into R3
+ldi 3,1
+
+# Load counter idx into R2
+ld 2,0
+add 3,2 # first add
+add 0,1
+
+ld 2,0
+add 3,2 # second add
+add 0,1
+
+ld 2,0
+add 3,2 # third add
+add 0,1
+
+ld 2,0
+add 3,2 # fourth add
+add 0,1
+
+# subtractions
+ld 2,0
+sub 3,2 # first sub
+add 0,1
+
+ld 2,0
+sub 3,2 # second sub
+add 0,1
+
+ld 2,0
+sub 3,2 # third sub
+add 0,1
+
+ld 2,0
+sub 3,2 # fourth sub
+add 0,1

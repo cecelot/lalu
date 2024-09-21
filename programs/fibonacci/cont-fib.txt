@@ -1,0 +1,21 @@
+# R0: Fib #1
+# R1: Fib #2
+# R2: Memory Address for `st`
+# R3: Constant (1)
+
+# === load variables ===
+ldi 0,0
+ldi 1,1
+ldi 2,0
+ldi 3,1
+
+# === Add R0 and R1 ===
+t0: add 0,1
+st 0,2
+add 2,3
+
+# === Add R1 and R0 ===
+add 1,0
+st 1,2
+jmp t0
+add 2,3

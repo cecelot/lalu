@@ -1,0 +1,58 @@
+# seq: 0,1,1,2,3,5,8,13,21,34,55,89
+# sto: 1,2,3,5,8,13,21,34,55,89 (0x59)
+
+# load 0 and 1
+ldi 0,0
+ldi 1,1
+ldi 2,0 # memory index to store
+ldi 3,1 # constant 1
+
+# add 0 and 1
+add 0,1
+st 0,2 # store 1
+add 2,3
+
+# add 1 and 1
+add 0,1
+st 0,2 # store 2
+add 2,3
+
+# add 2 and 1
+add 1,0
+st 1,2 # store 3
+add 2,3
+
+# add 3 and 2
+add 0,1
+st 0,2 # store 5
+add 2,3
+
+# add 3 and 5
+add 1,0
+st 1,2 # store 8
+add 2,3
+
+# add 8 and 5
+add 0,1
+st 0,2 # store 13
+add 2,3
+
+# add 13 and 8
+add 1,0
+st 1,2 # store 21
+add 2,3
+
+# add 21 and 13
+add 0,1
+st 0,2 # store 34
+add 2,3
+
+# add 21 and 34
+add 1,0
+st 1,2 # store 55
+add 2,3
+
+# add 34 and 55
+add 0,1
+st 0,2 # store 89 (0x59)
+add 2,3
