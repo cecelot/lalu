@@ -1,6 +1,6 @@
 # LALU
 
-A programmable 16-bit Arithmetic Logic Unit with support for addition and subtraction, built in Logisim. This was made as part of the spring project for Digital Electronics ([course overview](https://docs.google.com/presentation/d/13zvvAOJ44Jc9marU6MsldvEOEcPNYqvOwxIgNdA3xcI/pub?start=true&loop=true&delayms=5000&slide=id.g195ddaefc5_0_0)), a [LASA {CS}](https://lasacs.com) course.
+A miniature programmable 16-bit microprocessor, built in Logisim. This was made as part of the spring project for Digital Electronics ([course overview](https://docs.google.com/presentation/d/13zvvAOJ44Jc9marU6MsldvEOEcPNYqvOwxIgNdA3xcI/pub?start=true&loop=true&delayms=5000&slide=id.g195ddaefc5_0_0)), a [LASA {CS}](https://lasacs.com) course.
 
 ## Features
 
