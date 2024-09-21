@@ -1885,7 +1885,7 @@
       <a name="text" val="1"/>
     </comp>
     <comp lib="8" loc="(310,410)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(310,430)" name="Text">
       <a name="text" val="FA0"/>
@@ -1959,7 +1959,7 @@
       <a name="text" val="FA1"/>
     </comp>
     <comp lib="8" loc="(250,275)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(290,225)" name="Text">
       <a name="text" val="1"/>
@@ -2074,7 +2074,7 @@
       <a name="text" val="1"/>
     </comp>
     <comp lib="8" loc="(475,410)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(480,445)" name="Text">
       <a name="text" val="FAopt1"/>
@@ -2213,7 +2213,7 @@
       <a name="text" val="1.75"/>
     </comp>
     <comp lib="8" loc="(530,370)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(530,405)" name="Text">
       <a name="text" val="FAopt2"/>
@@ -2474,7 +2474,7 @@
       <a name="text" val="4-bit RCA FA0"/>
     </comp>
     <comp lib="8" loc="(215,520)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(230,370)" name="Text">
       <a name="text" val="6.75"/>
@@ -2622,7 +2622,7 @@
       <a name="text" val="4-bit RCA FA1"/>
     </comp>
     <comp lib="8" loc="(215,520)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(230,370)" name="Text">
       <a name="text" val="6.75"/>
@@ -2778,7 +2778,7 @@
       <a name="text" val="8-bit RCA"/>
     </comp>
     <comp lib="8" loc="(530,725)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(545,535)" name="Text">
       <a name="text" val="10.75"/>
@@ -3337,7 +3337,7 @@
       <a name="text" val="10.5"/>
     </comp>
     <comp lib="8" loc="(485,970)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(490,995)" name="Text">
       <a name="text" val="16-bit Carry Select Adder"/>
@@ -3491,7 +3491,7 @@
       <a name="text" val="2to1Mux"/>
     </comp>
     <comp lib="8" loc="(205,355)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(225,160)" name="Text">
       <a name="text" val="1"/>
@@ -3582,7 +3582,7 @@
       <a name="text" val="4to1 Mux"/>
     </comp>
     <comp lib="8" loc="(325,705)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(425,530)" name="Text">
       <a name="text" val="42 transistors"/>
@@ -3665,7 +3665,7 @@
       <a name="text" val="0.25"/>
     </comp>
     <comp lib="8" loc="(245,445)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(250,420)" name="Text">
       <a name="text" val="2to1 Mux - Transmission Gates"/>
@@ -3764,7 +3764,7 @@
       <a name="text" val="4to1 Mux - Transmission Gates"/>
     </comp>
     <comp lib="8" loc="(475,495)" name="Text">
-      <a name="text" val="Sam Newmark"/>
+      <a name="text" val="Sydney Newmark"/>
     </comp>
     <comp lib="8" loc="(590,240)" name="Text">
       <a name="text" val="z= max(s0+2.75, s1+1.75, in0+2, in1+2, in2+2, in3+2)"/>
